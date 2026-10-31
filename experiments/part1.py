@@ -482,11 +482,13 @@ def run_part1_point2():
         result["depth"]
         for result in results
     ]
+    print(depths)
 
     errors = [
         result["max_error"]
         for result in results
     ]
+    print(errors)
 
     fig, ax = plt.subplots(figsize=(9, 6))
 
